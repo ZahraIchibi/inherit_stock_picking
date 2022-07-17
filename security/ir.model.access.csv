@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_inherit_stock_picking_inherit_stock_picking,inherit_stock_picking.inherit_stock_picking,model_inherit_stock_picking_inherit_stock_picking,base.group_user,1,1,1,1
