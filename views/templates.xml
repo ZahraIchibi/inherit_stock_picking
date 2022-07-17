@@ -45,7 +45,10 @@
                                         <strong>Subtotal</strong>
                                     </td>
                                     <td name="td_amount_untaxed" class="text-right">
-                                        <span t-field="o.amount_untaxed"/>
+                                        <span
+                                                t-esc="o.amount_untaxed"
+                                                t-options='{"widget": "monetary", "display_currency": res_company.currency_id}'/>
+
                                     </td>
                                 </tr>
 
@@ -54,7 +57,10 @@
                                         <strong>Total</strong>
                                     </td>
                                     <td name="td_amount_total" class="text-right">
-                                        <span t-field="o.amount_total"/>
+                                        <span
+                                                t-esc="o.amount_total"
+                                                t-options='{"widget": "monetary", "display_currency": res_company.currency_id}'/>
+
                                     </td>
                                 </tr>
                             </table>

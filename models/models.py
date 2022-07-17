@@ -21,9 +21,9 @@ class inherit_stock_picking_2(models.Model):
 class inherit_stock_picking_1(models.Model):
     _inherit = 'stock.picking'
 
-    amount_total = fields.Float(string='Total', store=True, readonly=True, compute='_amount_all', tracking=4)
-    amount_untaxed = fields.Float(string='Untaxed Amount', store=True, readonly=True, compute='_amount_all', tracking=5)
-    amount_tax = fields.Float(string='Taxes', store=True, readonly=True, compute='_amount_all')
+    amount_total = fields.Monetary(string='Total', store=True, readonly=True, compute='_amount_all', tracking=4)
+    amount_untaxed = fields.Monetary(string='Untaxed Amount', store=True, readonly=True, compute='_amount_all', tracking=5)
+    amount_tax = fields.Monetary(string='Taxes', store=True, readonly=True, compute='_amount_all')
     currency_id = fields.Many2one(
         'res.currency', string='Currency')
 
