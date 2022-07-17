@@ -8,4 +8,4 @@
 ![image](https://user-images.githubusercontent.com/41300042/179403325-f95d860d-bb8a-48a8-8673-99d848db7d1a.png)
 
 ## Printed report 
-![image](https://user-images.githubusercontent.com/41300042/179403344-9650498c-d724-4996-ad78-be895eea7c8f.png)
+![image](https://user-images.githubusercontent.com/41300042/179406135-d56cbb37-5060-4e6d-8046-b75a7ac996b2.png)
